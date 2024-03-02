@@ -210,6 +210,10 @@ select {
   width: 100%;
   padding: 0 20px;
   position: relative;
+  overflow-x: hidden;
+}
+.box::-webkit-scrollbar {
+  width: 0;
 }
 
 .box2 {
@@ -1583,6 +1587,7 @@ footer {
 .works {
   width: 100%;
   display: flex;
+  overflow: hidden;
   gap: 10px;
 }
 
@@ -2204,4 +2209,75 @@ footer {
 }
 .yc {
   color: #ffff57;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.imgsP {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0 20px;
+}
+.imgsP img {
+  width: 100%;
+  height: 550px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 1250px) {
+  .imgsP img {
+    height: auto;
+  }
+}
+.tp {
+  padding: 50px 20px;
+}
+
+.pDa {
+  display: flex;
+  flex-direction: column;
+  z-index: 4;
+  gap: 20px;
+}
+.pDa h3 {
+  font-size: 2em;
+  color: #ffff57;
+  width: 100%;
+  -moz-text-align-last: left;
+       text-align-last: left;
+}
+.pDa p {
+  font-size: 1em;
+  width: 100%;
+  -moz-text-align-last: left;
+       text-align-last: left;
+}
+.pDa span {
+  width: 100%;
+  -moz-text-align-last: left;
+       text-align-last: left;
+  font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+  .pDa {
+    display: flex;
+    flex-direction: column;
+    z-index: 4;
+    gap: 10px;
+  }
+  .pDa h3 {
+    font-size: 1.5em;
+  }
+  .pDa p {
+    font-size: 0.9em;
+  }
+  .pDa span {
+    font-size: 0.8em;
+  }
 }/*# sourceMappingURL=style.css.map */

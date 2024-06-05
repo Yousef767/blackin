@@ -7,7 +7,6 @@ links.forEach((e)=>{
   })
 })
 
-
 let nav = document.querySelector('nav');
 let menu = document.querySelector('.menu');
 
@@ -22,23 +21,5 @@ window.addEventListener('scroll',()=>{
     nav.classList.remove('color');
   }
 })
-
-let goTop = document.querySelector('.goTop');
-goTop.addEventListener('click',()=>{
-  window.scrollTo(0,0)
-})
-
-window.addEventListener('scroll',()=>{
-  if(window.scrollY >= 400){
-    goTop.style.display='block'
-  }else{
-    goTop.style.display='none'
-  }
-})
-
-let video = document.querySelector('video');
-if(video){
-  video.play();
-}
 
 

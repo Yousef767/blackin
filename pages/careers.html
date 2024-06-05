@@ -30,9 +30,9 @@
           <ul class="mainLinks">
             <li><a class="link" href="../index.html">Home</a></li>
             <li><a class="link" href="./about.html">about us</a></li>
-            <li><a class="link active" href="./work.html">Our work</a></li>
+            <li><a class="link" href="./work.html">Our  work</a></li>
             <li><a class="link" href="./blog.html">blog </a></li>
-            <li><a class="link" href="./careers.html">careers </a></li>
+            <li><a class="link active" href="./careers.html">careers </a></li>
             <li><a class="link contactUsLink" href="./contact.html">Contact Us</a></li>
           </ul>
         </div>
@@ -47,53 +47,59 @@
   <!-- End Nav -->
 
 
-  <div class="goTop">
-    <a href="https://wa.me/+962797551201">
-      <img src="../media/icons/whatsapp.png" alt="">
-    </a>
-  </div>
-
   <!-- start header -->
   <header class="hdr pt150">
-    <h1>Company <span> Name <i></i></span></h1>
+    <h1><span> Careers <i></i></span></h1>
   </header>
   <!-- end header -->
-  <div class="star-field"></div>
-  <!-- Start Work -->
-  <div class="centerBox">
-    <div class="box workPage">
-      <div class="worksImgs">
-        <img class="wII" src="../media/project.jpg" alt="">
-        <img class="wII" src="../media/project.jpg" alt="">
-        <img class="wII" src="../media/project.jpg" alt="">
-        <img class="wII" src="../media/project.jpg" alt="">
-        <img class="wII" src="../media/project.jpg" alt="">
-      </div>
-      <div class="worksImgs">
-        <iframe  src="https://www.youtube.com/embed/QC8iQqtG0hg?si=i1OS9R2HCo6cQsPG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      </div>
-      <div class="aboutText w100 tp">
-        <h1 class="yc" data-aos="zoom-out" data-aos-duration="600">WHAT WE DID ?</h1>
-        <p data-aos="zoom-out" data-aos-duration="600">Hey there, welcome to Black In Agency!
-          We're all about shaking things up in the
-          digital marketing world. Our vibe is all
-          about being bold, creative, and
-          seriously savvy.
-          From killer ideas to high-tech strategies,
-          we're here to help brands kick it up a
-          notch in the digital space.
-          Our name
-          might be sleek, but our game is all
-          about giving brands that extra edge in
-          a crowded online world.</p>
-      </div>
-      <div class="imgsP">
-        <img data-aos="zoom-out" data-aos-duration="600" src="../media/project.jpg" alt="">
-        <img data-aos="zoom-out" data-aos-duration="600" src="../media/project.jpg" alt="">
-      </div>
+
+  <!-- Start blog -->
+  <div class="center">
+    <div class="carform">
+      <header>
+        <h1>APPLY NOW</h1>
+      </header>
+      <form class="careerForm " action="">
+        <div class="input">
+          <span >full name :</span>
+          <input type="text">
+          <i></i>
+        </div>
+        <div class="input">
+          <span>email :</span>
+          <input type="text">
+          <i></i>
+        </div>
+        <div class="input">
+          <span>Jop Title :</span>
+          <div class="select">
+            <select> 
+              <option value="1">Jop 1</option>
+              <option value="2">Jop 2</option>
+              <option value="3">Jop 3</option>
+            </select>
+            <img src="../media/icons/arrow.png" alt="">
+          </div>
+          <i></i>
+        </div>
+        <div class="fileInput">
+          <input type="file" id="upload" hidden />
+          <label class="label" for="upload">Upload cv :</label>
+          <div class="file">
+            <div id="fileData"></div>
+            <label for="upload" id="label">Upload</label>
+          </div>
+          <i></i>
+        </div>
+        <div class="send">
+          <input type="submit" value="Send">
+        </div>
+      </form>
     </div>
   </div>
-  <!-- End Work -->
+
+
+  <div class="star-field"></div>
 
   <!-- start footer -->
   <footer>
@@ -141,7 +147,7 @@
 <script src="../js/scroll.js"></script>
 <script src="../js/stars.js"></script>
 <script src="../js/bullet.js"></script>
-<script src="../js/filters.js"></script>
+<script src="../js/fileInput.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init();

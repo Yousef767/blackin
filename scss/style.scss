@@ -1705,7 +1705,7 @@ footer {
   }
 }
 .wII {
-  width: 550px;
+  width: calc(50% - 10px);
   height: 500px;
   object-fit: cover;
 }
@@ -1717,8 +1717,8 @@ footer {
   .worksImgs {
     video,
     iframe {
-      width: 100%;
-      height: auto;
+      width: 100% ;
+      height: auto ;
     }
   }
 }
@@ -2341,7 +2341,7 @@ footer {
         }
       }
     }
-    &:nth-child(7) {
+    &:last-child {
       .page-link {
         background-color: #fff;
       }

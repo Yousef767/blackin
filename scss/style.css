@@ -1764,7 +1764,7 @@ footer {
 }
 
 .wII {
-  width: 550px;
+  width: calc(50% - 10px);
   height: 500px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -2431,13 +2431,13 @@ footer {
 .spans li:nth-child(1) .page-link.active:hover {
   background-color: #c7c7c8;
 }
-.spans li:nth-child(7) .page-link {
+.spans li:last-child .page-link {
   background-color: #fff;
 }
-.spans li:nth-child(7) .page-link.active {
+.spans li:last-child .page-link.active {
   background-color: #fff;
 }
-.spans li:nth-child(7) .page-link.active:hover {
+.spans li:last-child .page-link.active:hover {
   background-color: #c7c7c8;
 }
 .spans li .page-link.active {

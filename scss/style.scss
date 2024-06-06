@@ -1709,7 +1709,7 @@ footer {
   height: 500px;
   object-fit: cover;
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .wII {
     width: 100%;
     height: auto;
@@ -1718,12 +1718,12 @@ footer {
     video,
     iframe {
       width: 100% ;
-      height: auto ;
+      height: 300px ;
     }
   }
 }
 
-.work-col1 {
+.work-col1,.worksImgs {
   width: 100%;
   display: flex;
   flex-wrap: wrap;

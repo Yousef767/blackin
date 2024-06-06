@@ -1770,7 +1770,7 @@ footer {
      object-fit: cover;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .wII {
     width: 100%;
     height: auto;
@@ -1778,10 +1778,10 @@ footer {
   .worksImgs video,
   .worksImgs iframe {
     width: 100%;
-    height: auto;
+    height: 300px;
   }
 }
-.work-col1 {
+.work-col1, .worksImgs {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -1789,22 +1789,22 @@ footer {
   align-items: center;
   gap: 10px;
 }
-.work-col1 .flip {
+.work-col1 .flip, .worksImgs .flip {
   margin-bottom: auto;
 }
-.work-col1 .flip:nth-child(1) {
+.work-col1 .flip:nth-child(1), .worksImgs .flip:nth-child(1) {
   width: calc(50% - 10px);
   height: 450px;
 }
-.work-col1 .flip:nth-child(2) {
+.work-col1 .flip:nth-child(2), .worksImgs .flip:nth-child(2) {
   width: calc(50% - 10px);
   height: 400px;
 }
-.work-col1 .flip:nth-child(3) {
+.work-col1 .flip:nth-child(3), .worksImgs .flip:nth-child(3) {
   width: calc(50% - 10px);
   height: 400px;
 }
-.work-col1 .flip:nth-child(4) {
+.work-col1 .flip:nth-child(4), .worksImgs .flip:nth-child(4) {
   width: calc(50% - 10px);
   height: 450px;
   transform: translateY(-50px) !important;

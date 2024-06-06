@@ -1757,7 +1757,7 @@ footer {
 }
 .worksImgs video,
 .worksImgs iframe {
-  width: 100%;
+  width: calc(50% - 10px);
   height: 500px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -2225,8 +2225,7 @@ footer {
 }
 
 .centerBox {
-  width: -moz-fit-content;
-  width: fit-content;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
